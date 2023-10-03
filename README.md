@@ -1,4 +1,4 @@
-# LLM Multi Model
+# LLM Multi Model Querying System 🥳
 
 
 <img src="https://olilo.ai/images/logo.png" alt="mypy logo" width="130px"/>
@@ -15,10 +15,10 @@ This is an OpenSource Project with the folling language model support added.
 This repository is intended as a minimal example and a working demo is hosted at [Olilo LLM](https://llms.olilo.ai/) 
 
 
-## Screenshot
+## 🌆 Screenshot
 ![Screenshot](/screencast.gif)
 
-## Every Model Runs in Parallel (Faster)
+## 🚀 Every Model Runs in Parallel (Faster)
 
 ```python
 with ThreadPoolExecutor() as executor:                    
@@ -30,7 +30,7 @@ with ThreadPoolExecutor() as executor:
           cols[i].write(future.result(), unsafe_allow_html=True)
 ```
 
-## Simple abstract class interface for all models
+## </> Simple abstract class interface for all models
 ```python
 from abc import ABC, abstractmethod
 
@@ -44,7 +44,7 @@ class ModelInterface(ABC):
         pass
 ```
 
-## Separate File / Class for each models
+## ☰ Separate File / Class for each models
 ``` python
 class ModelOPENAI(ModelInterface):
    
@@ -69,7 +69,7 @@ class ModelOPENAI(ModelInterface):
         return "CHATGPT4"
 ```
 
-## Installation Steps
+## 🛠️ Installation Steps
 
 ### Clone the Git Repo
 ```bash
