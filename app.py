@@ -43,7 +43,6 @@ def main():
                     for i, future in enumerate(as_completed(futures)):
                         progress.progress((i+1)/len(models))
                         cols[i].write(future.result(), unsafe_allow_html=True)
-                        print(future)
 
             st.balloons()
 
