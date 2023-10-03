@@ -14,6 +14,10 @@ This is an PpenSource Project with the folling language model support added.
 
 This repository is intended as a minimal example and a working demo is hosted at [Olilo LLM](https://llms.olilo.ai/) 
 
+
+## Screenshot
+![Screenshot](/screencast.gif)
+
 ## Every Model Runs in Parallel (Faster)
 
 ```python
@@ -99,8 +103,6 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Screenshot
-![Screenshot](/screenshot.png)
 
 [^1]: Used replicated.com service for this.
 
