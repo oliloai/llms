@@ -99,5 +99,8 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Screenshot
+![Screenshot](/screenshot.png)
+
 [^1]: Used replicated.com service for this.
 
