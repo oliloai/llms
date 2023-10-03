@@ -26,8 +26,7 @@ with ThreadPoolExecutor() as executor:
           cols[i].write(future.result(), unsafe_allow_html=True)
 ```
 
-
-## Simple Abstract Class Interface for all models
+## Simple abstract class interface for all models
 ```python
 from abc import ABC, abstractmethod
 
@@ -41,7 +40,7 @@ class ModelInterface(ABC):
         pass
 ```
 
-## Seperate File / Class for Each Models
+## Separate File / Class for each models
 ``` python
 class ModelOPENAI(ModelInterface):
    
