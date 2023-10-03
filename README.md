@@ -5,7 +5,7 @@
 
 We are unlocking the power of different large language models, and you can compare the output for the same input prompt.
 
-This is an OpenSource Project with the folling language model support added.
+This is an open-source project with the following language model support added:
 
 * GPT4
 * LLAMA2[^1]
@@ -105,6 +105,10 @@ pip install -r requirements.txt
 
 #### Made with Streamlit
 ![Streamlit](https://a.fsdn.com/allura/s/streamlit/icon?1683680195?&w=128)
+
+Need help?
+
+email us at hello@olilo.ai
 
 
 [^1]: Used replicated.com service for this.
