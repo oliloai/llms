@@ -103,6 +103,9 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
+#### Made with Streamlit
+![Streamlit](https://a.fsdn.com/allura/s/streamlit/icon?1683680195?&w=128)
+
 
 [^1]: Used replicated.com service for this.
 
