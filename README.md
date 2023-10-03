@@ -1,7 +1,17 @@
-Search and compare multiple LLMs to find the right solution for you. From olilo.ai
+# LLM Multi Model
 
-# olilomulti
-Run with multi model llm
+We are unlocking the power of different large language models, and you can compare the output for the same input prompt.
+
+This is an PpenSource Project with the folling language model support added.
+
+* GPT4
+* LLAMA2
+* StableLM
+* PalM2
+
+This repository is intended as a minimal example to load [Olilo LLM]([http://llms.olilo.ai/). 
+
+## Installation Steps
 
 ## Install
 ```bash
