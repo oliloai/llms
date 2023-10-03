@@ -5,7 +5,7 @@
 
 We are unlocking the power of different large language models, and you can compare the output for the same input prompt.
 
-This is an PpenSource Project with the folling language model support added.
+This is an OpenSource Project with the folling language model support added.
 
 * GPT4
 * LLAMA2[^1]
