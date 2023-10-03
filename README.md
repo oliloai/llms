@@ -13,26 +13,27 @@ This repository is intended as a minimal example to load [Olilo LLM]([http://llm
 
 ## Installation Steps
 
-## Install
+### Clone the Git Repo
 ```bash
-git clone git@github.com:sajithamma/olilomulti.git
+git clone git@github.com:oliloai/llms.git
+cd llms
 
-cd olilomulti
+```
 
-### Edit ENV file
-nano .env
+### Edit ENV file and add API KEYS
+```bash
+cp .env.example .env
+nano .env 
+```
 
-Add your API keys
+### Install PIP Packages
 
+```bash
+pip install -r requirements.txt
+```
 
-# Server Installation
+### Run Streamlit
 
-
-### edit the service here
-sudo nano /etc/systemd/system/llms_olilo.service
-
-### Restart service
-sudo systemctl restart llms_olilo.service
-
-###See logs
-journalctl -u  llms_olilo.service
+```bash
+streamlit run app.py
+```
