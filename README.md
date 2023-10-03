@@ -1,4 +1,4 @@
-# LLM Multi Model Querying System 🥳
+# LLM Multi Model Querying System 👋
 
 
 <img src="https://olilo.ai/images/logo.png" alt="mypy logo" width="130px"/>
