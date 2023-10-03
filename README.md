@@ -1,15 +1,17 @@
 # LLM Multi Model
 
+![Olilo Logo](https://olilo.ai/images/logo.png)
+
 We are unlocking the power of different large language models, and you can compare the output for the same input prompt.
 
 This is an PpenSource Project with the folling language model support added.
 
 * GPT4
-* LLAMA2
-* StableLM
+* LLAMA2[^1]
+* StableLM[^1]
 * PalM2
 
-This repository is intended as a minimal example to load [Olilo LLM]([http://llms.olilo.ai/). 
+This repository is intended as a minimal example to load [Olilo LLM](https://llms.olilo.ai/) 
 
 ## Installation Steps
 
@@ -37,3 +39,13 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+## Recommended Virtual Environment for PIP
+```bash
+python -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
+
+[^1]: Used replicated.com service for this.
+
