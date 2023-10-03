@@ -100,7 +100,7 @@ pip install -r requirements.txt
 ```
 
 ## Screenshot
-![Screenshot](/screenshot.png)
+![Screenshot](/screencast.gif)
 
 [^1]: Used replicated.com service for this.
 
