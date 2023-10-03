@@ -44,7 +44,7 @@ class ModelInterface(ABC):
         pass
 ```
 
-## ☰ Separate File / Class for each models
+## ☰ Separate File / Class for each model
 ``` python
 class ModelOPENAI(ModelInterface):
    
