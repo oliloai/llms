@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body,
+[class*="css"] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #091747;
+}
+
+footer {
+    display: none !important;
+}
+
+h2,
+h3 {
+    color: rgb(147 51 234) !important;
+}
+
+[data-testid~="stSidebar"] {
+
+    background-color: #E2DFFB !important;
+}
+
+[data-testid="column"] {
+
+    min-height: 50vh !important;
+    border-radius: 2% !important;
+    padding: 10px !important;
+    border: 1px solid #dddddd !important;
+    background: rgb(243, 241, 245) !important;
+    background: radial-gradient(circle, rgba(243, 241, 245, 1) 0%, rgba(252, 252, 252, 1) 100%) !important;
+}
+
+
+header {
+    display: none !important;
+}
+
+.block-container {
+    padding-top: 0px !important;
+}
+
+[role="progressbar"]>div>div>div {
+    background-color: rgb(147 51 234) !important;
+}
+
+textarea {
+    border: 1px solid #0c81ca !important;
+    background-color: white !important;
+    padding: 5px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    border-radius: 2% !important;
+}
+
+.main button {
+    background-color: rgb(147 51 234) !important;
+    color: white !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.appview-container {
+    margin: 0px !important;
+}
+
+
+h2 {
+    font-size: 2.25rem !important;
+}
+
+@media (max-width: 400px) {}

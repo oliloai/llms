@@ -1,0 +1,6 @@
+streamlit
+openai
+replicate
+google-generativeai
+transformers
+python-dotenv
